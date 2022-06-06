@@ -10,7 +10,7 @@ const Fr = new F1Field(exports.p);
 
 describe("Circuit test", function () {
 
-    it("Multipler2 test", async () => {
+    it("MathHash test", async () => {
         const circuit = await wasm_tester("circuits/circuit.circom");
         await circuit.loadConstraints();
 
